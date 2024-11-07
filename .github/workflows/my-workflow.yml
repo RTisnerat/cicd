@@ -20,3 +20,7 @@ jobs:
 
       - name: Build application
         run: npm run build
+
+      - name: Test
+      run: npm test
+      
